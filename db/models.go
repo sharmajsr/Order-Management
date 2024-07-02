@@ -23,8 +23,8 @@ type Product struct {
 }
 
 type User struct {
-	ID       interface{} `json:"id"`
-	Name     string      `json:"name"`
-	Username string      `json:"username"`
-	Password string      `json:"password"`
+	ID       int32  `json:"id"`
+	Name     string `json:"name"`
+	Username string `json:"username"`
+	Password string `json:"password"`
 }

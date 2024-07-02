@@ -1,2 +1,4 @@
 /common/constants.go
 /ut_utils/default_config.yaml
+*.sql.go
+/bin
