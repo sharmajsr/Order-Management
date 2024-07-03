@@ -24,11 +24,11 @@ This project implements a set of RESTful APIs for order management, designed to 
    https://github.com/sharmajsr/Order-Management.git
    ```
 2. **Build the Project:**  
-  ```bash
+   ```bash
    make oms_app
    ```
 3. Run the Project
-  ```bash
+   ```bash
    ./bin/oms
    ```
 
