@@ -25,6 +25,9 @@ UPDATE orders
     WHERE id=$1 and product_id=$2 and user_id=$3;
 
 
+-- name: OrderById :one 
+SELECT * FROM orders WHERE id = $1;
+
 -- name: OrderByUserId :one 
 SELECT * FROM orders WHERE user_id = $1;
 
